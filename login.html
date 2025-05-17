@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Technohart's Site</title>
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("password").value;
+      if(password === "beleiver1234") {
+        window.location.href = "members.html";
+      } else {
+        alert("Incorrect password. Try again.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>🔒 Member Login</h2>
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="checkPassword()">Login</button>
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
