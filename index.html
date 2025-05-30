@@ -3,94 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Official website of Samarth – entrepreneur, digital marketer, and business enthusiast. Learn more about services and ideas.">
-  <meta name="keywords" content="Samarth, digital marketing, business consulting, startup, entrepreneur, India, blog">
+  <meta name="description" content="Official website of Samarth – entrepreneur, digital marketer, and business enthusiast.">
+  <meta name="keywords" content="Samarth, digital marketing, business consulting, startup, entrepreneur">
   <meta name="author" content="Samarth">
 
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="TECHMORA CONSULTANCY | Digital Marketing & Business Solutions">
-  <meta property="og:description" content="Helping startups and businesses grow with tailored digital strategies.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Samarth | Digital Marketing & Business Consultant">
+  <meta property="og:description" content="Official site of Samarth. Get expert help with digital marketing, business ideas, and startup support.">
   <meta property="og:url" content="https://beleiverboi.github.io/samarth-website/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://yourdomain.com/preview.jpg"> <!-- Replace with actual image URL -->
+  <meta property="og:image" content="https://yourdomain.com/preview.jpg">
 
-  <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="TECHMORA CONSULTANCY | Digital Marketing & Business Solutions">
-  <meta name="twitter:description" content="Helping startups and businesses grow with tailored digital strategies.">
+  <meta name="twitter:title" content="Samarth | Digital Marketing & Business Consultant">
+  <meta name="twitter:description" content="Helping businesses grow through marketing and innovation.">
 
-  <title>Techmora | Digital Marketing & Business Consulting by Samarth</title>
+  <title>TECHMORA CONSULTANCY | Digital Marketing and Business Solutions</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="icon" href="favicon.png" type="image/png">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ8RVL8TDF"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-FZ8RVL8TDF');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FZ8RVL8TDF');
   </script>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
+<body class="bg-gray-100 text-gray-800 font-sans scroll-smooth">
 
-  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+  <header class="bg-white shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
     <h1 class="text-2xl font-bold">TECHMORA CONSULTANCY</h1>
     <nav class="space-x-4">
       <a href="#about" class="hover:text-blue-500">About</a>
       <a href="#services" class="hover:text-blue-500">Services</a>
+      <a href="#blog" class="hover:text-blue-500">Blog</a>
       <a href="#contact" class="hover:text-blue-500">Contact</a>
     </nav>
   </header>
 
-  <section class="text-center py-20 bg-blue-100">
-    <h2 class="text-4xl font-bold mb-4">Welcome to Techmora</h2>
-    <p class="text-lg mb-6 max-w-2xl mx-auto">Your digital home for all things business, marketing, and entrepreneurship. Explore innovative solutions and insights tailored for growth.</p>
+  <section class="text-center py-20 bg-blue-100" data-aos="fade-up">
+    <h2 class="text-4xl font-bold mb-4">Welcome</h2>
+    <p class="text-lg mb-6">Your digital home for all of the business, marketing, and creative ideas.</p>
     <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600">Get in Touch</a>
   </section>
 
-  <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+  <section id="about" class="py-16 px-6 max-w-4xl mx-auto" data-aos="fade-right">
     <h3 class="text-3xl font-semibold mb-4">About Us</h3>
-    <p class="mb-2">At Techmora Consultancy, we empower entrepreneurs, startups, and established brands to grow in the digital landscape through strategic marketing and modern tools.</p>
-    <ul class="list-disc list-inside mb-4">
-      <li>Expertise in digital marketing and SEO</li>
-      <li>Tailored business consulting</li>
-      <li>Strong focus on personal branding and web development</li>
-    </ul>
-    <p class="text-blue-600">📚 <a href="blogs.html" class="underline">Read Our Blogs</a> to stay updated on digital marketing, business, and growth hacks.</p>
+    <p>We offer services in Digital Marketing, Business Consulting, and Web Presence development.</p>
+    <p class="mt-2">📚 <a href="blogs.html" class="text-blue-600 underline">Read Our Blogs</a> to stay updated on marketing, business, and growth hacks.</p>
   </section>
 
-  <section id="services" class="py-16 bg-gray-200 px-6">
+  <section id="services" class="py-16 bg-gray-200 px-6" data-aos="fade-left">
     <h3 class="text-3xl font-semibold text-center mb-10">Our Services</h3>
     <div class="grid md:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
         <h4 class="text-xl font-bold mb-2">Digital Marketing</h4>
-        <p>SEO, social media marketing, and advertising strategies tailored to help your business grow.</p>
+        <p>SEO, Social Media Marketing, and Ad strategies for growth.</p>
       </div>
-      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
         <h4 class="text-xl font-bold mb-2">Business Consulting</h4>
-        <p>Personalized guidance on launching, scaling, and optimizing your business for success.</p>
+        <p>Ideas, Planning, and Scale-up strategies for entrepreneurs.</p>
       </div>
-      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
         <h4 class="text-xl font-bold mb-2">Web Presence</h4>
-        <p>Professional website development and branding strategies to establish a strong online identity.</p>
+        <p>Get your brand or portfolio online with modern tools.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="py-16 px-6 max-w-xl mx-auto">
+  <section class="bg-gray-50 py-12" id="blog" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Latest from the Blog</h2>
+      <p class="text-gray-600 mb-12">Stay updated with insights from TECHMORA</p>
+
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <a href="blogs/trends2025.html" class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-6 text-left">
+          <img src="https://yourdomain.com/blogs/marketing-trends.webp" alt="Digital Marketing Trends" class="rounded-lg mb-4" loading="lazy">
+          <h3 class="text-xl font-semibold text-gray-800">Top Digital Marketing Trends in 2025</h3>
+          <p class="text-gray-600 mt-2">Explore the future of marketing with AI, personalization, and voice search dominating the scene.</p>
+          <span class="text-blue-600 mt-4 inline-block font-medium">Read more →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 px-6 max-w-xl mx-auto" data-aos="fade-up">
     <h3 class="text-3xl font-semibold mb-4">Contact Us</h3>
-    <form class="space-y-4" action="mailto:youremail@example.com" method="post" enctype="text/plain">
-      <input type="text" placeholder="Your Name" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring" required>
-      <input type="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring" required>
-      <textarea placeholder="Your Message" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring" rows="5" required></textarea>
-      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Message</button>
-    </form>
+    <p class="mb-4">📨 <a href="contact.html" class="text-blue-600 underline">Contact Us</a> — let's expand our ideas!</p>
   </section>
 
   <footer class="bg-white text-center py-4 shadow-inner mt-10">
     © 2025 Samarth. All rights reserved.
   </footer>
 
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
 </body>
 </html>
